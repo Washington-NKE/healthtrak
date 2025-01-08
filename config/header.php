@@ -30,6 +30,14 @@
             --card-background2: #9ccddb;
         }
 
+        .container {
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            flex-direction: column; 
+
+        }
+
         body {
             background-color: var(--background-color);
             margin: 0;
