@@ -64,7 +64,7 @@ if(isset($_SESSION['user_id'])){
 
         
         $_SESSION['user'] = $email; 
-        $_SESSION['role'] = 'patient';
+        //$_SESSION['role'] = 'patient';
         // Redirect to the dashboard
         header("Location: dashboard.php");
         exit(); // Ensure no further code is executed
