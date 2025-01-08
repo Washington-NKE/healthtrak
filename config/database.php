@@ -1,10 +1,10 @@
 <?php 
 
 //connect to database
-$server = "localhost";
-$user = "washington";
-$password1 = "Insurmountable.1";
-$database = "healthtrak";
+$server = "sql8.freemysqlhosting.net";
+$user = "sql8756530";
+$password1 = "8hE4DZKJye";
+$database = "sql8756530";
 
 $conn = new mysqli($server, $user, $password1, $database);
 
