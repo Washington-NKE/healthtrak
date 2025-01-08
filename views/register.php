@@ -1,4 +1,3 @@
-
 <?php
 session_start();
 
@@ -63,7 +62,7 @@ if(isset($_SESSION['user_id'])){
             if ($stmt->execute()) {
         $user_id = $conn->insert_id;
 
-        $_SESSION['user_id'] = $user_id;
+        
         $_SESSION['user'] = $email; 
         $_SESSION['role'] = 'patient';
         // Redirect to the dashboard
@@ -75,11 +74,6 @@ if(isset($_SESSION['user_id'])){
         }
     }
 ?>
-
-<?php include '../config/header.php'; ?>
-
-</div>
-    </nav>
 
 <section class="container grey-text">
     <h4 class="center">REGISTRATION</h4>
